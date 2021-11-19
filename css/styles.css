@@ -227,6 +227,7 @@ sup {
 a {
   color: #e6a756;
   /*text-decoration: underline;*/
+  text-decoration:none;
 }
 a:hover {
   color: #b88645;
@@ -11308,7 +11309,7 @@ p {
 }
 
 .page-section {
-  margin-top: 5rem;
+  margin-top: 0rem;
   margin-bottom: 0rem;
 }
 
@@ -11599,7 +11600,7 @@ padding-top:4rem;
 }
 .detail .accordion-list li {
   padding: 20px;
-  background: #f2f5f4;
+  /*background: #f2f5f4;*/
   border-radius: 5px;
 }
 .detail .accordion-list a {
@@ -11750,6 +11751,16 @@ padding-top:4rem;
 .col_cen{
 
   margin-top:10rem;
+  text-align: right;
+ 
+
+}
+
+.col_cen2{
+
+  margin-top:10rem;
+  margin-right:15rem;
+  text-align: left;
  
 
 }
@@ -11774,3 +11785,15 @@ section{
   font-family: 微軟正黑體;
 }
 
+.show44{
+   text-align: center;
+
+}
+.show33{
+   text-align: center;
+
+}
+.show22{
+   text-align: center;
+
+}
