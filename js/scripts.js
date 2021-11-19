@@ -45,12 +45,12 @@ function show22() {
        document.getElementById('hide22').style.display='';
         document.getElementById('hide33').style.display='none';
        document.getElementById('hide44').style.display='none';
-       document.getElementById('show22').innerText = "活動緣起與目的";
+       document.getElementById('show22').innerText = "活動目的";
    }
    else {
        isShow = false;
        document.getElementById('hide22').style.display='none';
-       document.getElementById('show22').innerText = "活動緣起與目的";
+       document.getElementById('show22').innerText = "活動目的";
    }
 }
 

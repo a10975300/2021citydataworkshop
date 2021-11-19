@@ -11518,9 +11518,9 @@ padding-top:4rem;
   text-align: center;
 }
 .Organizer-member img {
-  width: 12rem;
-  height: 12rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  width: 15rem;
+  /*height: 12rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);*/
 }
 .Organizer-member h5, .Organizer-member .h5 {
   margin-top: 1.5rem;
@@ -11607,7 +11607,7 @@ padding-top:4rem;
   display: block;
   position: relative;
   font-family: 微軟正黑體;
-  font-size: 30px;
+  font-size: 48px;
   line-height: 24px;
   font-weight: 500;
   padding-right: 30px;
@@ -11674,7 +11674,7 @@ padding-top:4rem;
 .agenda {
  
   /*background-color:#E0E0E0;*/
-  padding-top: 5rem;
+  padding-top: 0.1rem;
     padding-bottom: 4rem;
 
 }
@@ -11751,6 +11751,7 @@ padding-top:4rem;
 .col_cen{
 
   margin-top:10rem;
+  margin-left:5rem;
   text-align: right;
  
 
@@ -11759,7 +11760,7 @@ padding-top:4rem;
 .col_cen2{
 
   margin-top:10rem;
-  margin-right:15rem;
+  margin-right:10rem;
   text-align: left;
  
 
@@ -11773,11 +11774,14 @@ padding-top:4rem;
 }
 
 .sm_size{
-  font-size:12px;
+  font-size:18px;
 }
 
 .sm_size2{
   font-size:14px;
+}
+.sm_size3{
+  font-size:13px;
 }
 
 
