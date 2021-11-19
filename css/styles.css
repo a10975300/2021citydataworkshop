@@ -230,7 +230,7 @@ a {
   text-decoration:none;
 }
 a:hover {
-  color: #b88645;
+  color: #4cd67c;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3458,7 +3458,7 @@ textarea.form-control-lg {
   text-decoration: underline;
 }
 .btn-link:hover {
-  color: #b88645;
+  color: black;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -3937,7 +3937,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #b88645;
+  color: black;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -4457,6 +4457,8 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.9);
 }
 
+
+
 .navbar-dark .navbar-brand {
   color: #fff;
 }
@@ -4801,13 +4803,13 @@ textarea.form-control-lg {
 }
 .page-link:hover {
   z-index: 2;
-  color: #b88645;
+  color: black;
   background-color: #e9ecef;
   border-color: #dee2e6;
 }
 .page-link:focus {
   z-index: 3;
-  color: #b88645;
+  color: black;
   background-color: #e9ecef;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(230, 167, 86, 0.25);
@@ -11316,8 +11318,24 @@ p {
 .section-heading {
   text-transform: uppercase;
   margin-bottom:2rem;
+  color:#4cd67c;
 
 }
+
+.col_gr {
+ 
+  color:#4cd67c;
+  
+
+}
+
+.col_gr2 {
+ 
+  padding-top:5rem;
+  color:#4cd67c;
+
+}
+
 
 .org_top{
 padding-top:4rem;
@@ -11457,7 +11475,7 @@ padding-top:4rem;
 .knowledge .icon-box::before {
   content: "";
   position: absolute;
-  background: #aff4e9;
+  background: #4cd67c;
   right: -60px;
   top: -40px;
   width: 100px;
@@ -11467,7 +11485,7 @@ padding-top:4rem;
   z-index: -1;
 }
 .knowledge .icon-box:hover::before {
-  background: #1bbca3;
+  background: #4cd67c;
   right: 0;
   top: 0;
   width: 100%;
@@ -11482,7 +11500,7 @@ padding-top:4rem;
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #1bbca3;
+  background: #4cd67c;
   transition: all 0.3s ease-in-out;
 }
 .knowledge .icon i {
@@ -11510,7 +11528,7 @@ padding-top:4rem;
   background: #fff;
 }
 .knowledge .icon-box:hover .icon i {
-  color: #1bbca3;
+  color: #4cd67c;
 }
 
 .Organizer-member {
@@ -11564,6 +11582,9 @@ padding-top:4rem;
 /*--------------------------------------------------------------
 # Info Box
 --------------------------------------------------------------*/
+.detail {
+  font-weight:bold;
+}
 
 .detail .content {
   padding: 60px 100px 0 100px;
@@ -11616,7 +11637,7 @@ padding-top:4rem;
   cursor: pointer;
 }
 .detail .accordion-list a:hover {
-  color: #1bbca3;
+  color: #4cd67c;
 }
 .detail .accordion-list span {
   color: #e83e8c;
@@ -11638,10 +11659,10 @@ padding-top:4rem;
   display: none;
 }
 .detail .accordion-list a.collapsed {
-  color: #343a40;
+  color: black;
 }
 .detail .accordion-list a.collapsed:hover {
-  color: #1bbca3;
+  color: #4cd67c;
 }
 .detail .accordion-list a.collapsed .icon-show {
   display: inline-block;
@@ -11679,7 +11700,9 @@ padding-top:4rem;
 
 }
 .agenda img {
-  border-radius: 0;
+ 
+  border-top-left-radius:7%;
+  border-top-right-radius:7%;
   background-color:#E0E0E0;
   width:100%;
 }
@@ -11688,6 +11711,10 @@ padding-top:4rem;
   text-align: ceneter;
 }
 .agenda .card-body {
+  background:#b9ffd7;
+  border-bottom-left-radius:7%;
+  border-bottom-right-radius:7%;
+
   
 }
 
@@ -11702,16 +11729,16 @@ padding-top:4rem;
   transition: ease-in-out 0.3s;
 }
 .agenda .card-title a:hover {
-  color: #1bbca3;
+  color: #4cd67c;
 }
 .agenda .btn {
   border-radius: 50px;
   padding: 4px 30px 6px 30px;
-  border: 2px solid #1bbca3;
+  border: 2px solid #4cd67c;
 }
 .agenda .btn:hover {
   color: #fff;
-  background: #1bbca3;
+  background: #4cd67c;
 }
 
 .card_hover:hover {
@@ -11767,8 +11794,9 @@ padding-top:4rem;
 }
 
 .table_time{
-  border:3px #cccccc solid;
+ /* border:3px #cccccc solid;*/
   padding:0.2rem;
+   font-size:12px;
   
 
 }
@@ -11782,6 +11810,10 @@ padding-top:4rem;
 }
 .sm_size3{
   font-size:13px;
+}
+
+.sm_size4{
+  font-size:10px;
 }
 
 
