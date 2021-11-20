@@ -53,6 +53,10 @@
   --bs-body-bg: #fff;
 }
 
+html{
+  font-family: 微軟正黑體;
+}
+
 *,
 *::before,
 *::after {
@@ -11563,6 +11567,9 @@ padding-top:4rem;
 --------------------------------------------------------------*/
 .detail {
   font-weight:bold;
+  margin-top:9rem;
+  margin-bottom:5rem;
+  position:center;
 }
 
 .detail .content {
@@ -11748,31 +11755,33 @@ nav-link
 
 .col_cen{
 
-  margin-top:8rem; 
+ 
   text-align: center;
+
  
 
 }
 
 .col_cen2{
 
-  margin-top:8rem;
-  padding-right:5rem;
+  padding-right:4rem;
+  padding-left:2rem;
   text-align: left;
  
 
 }
 
 .table_time{
- /* border:3px #cccccc solid;*/
+  border-bottom:3px #cccccc solid;
   padding:0.2rem;
-   font-size:12px;
+   font-size:10px;
+   
   
 
 }
 
 .sm_size{
-  font-size:18px;
+  font-size:17px;
 }
 
 .sm_size2{
