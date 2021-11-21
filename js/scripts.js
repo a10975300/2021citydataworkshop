@@ -49,12 +49,12 @@ function show44() {
        document.getElementById('hide22').style.display='none';
        document.getElementById('hide55').style.display='none';
        document.getElementById('hide44').style.display='';
-       document.getElementById('show44').innerText = "活動議程";
+       document.getElementById('show44').innerText = "活動議程(1)";
    }
    else {
        isShow = false;
        document.getElementById('hide44').style.display='none';
-       document.getElementById('show44').innerText = "活動議程";
+       document.getElementById('show44').innerText = "活動議程(1)";
    }
 }
 

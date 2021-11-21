@@ -11282,10 +11282,19 @@ textarea.form-control-lg {
 }
 body {
  /* background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/bg.jpg");
-  background-image:url("../assets/img/bg.jpg");*/
+  background-image:url("../assets/img/bg2.png");*/
+
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+}
+
+.bg_p{
+  /*background-image:url("../assets/img/bg2.png");
+ background-attachment: fixed;
+  background-position: center;
+  background-size: cover;*/
+
 }
 
 p {
@@ -11685,14 +11694,17 @@ nav-link
 }
 .agenda img {
  
-  border-top-left-radius:7%;
-  border-top-right-radius:7%;
   background-color:#E0E0E0;
   width:100%;
+  border-top-left-radius:7%;
+  border-top-right-radius:7%;
+
 }
 .agenda .card {
   border: 0;
-  text-align: ceneter;
+  text-align: center;
+
+  border-radius:7%;
 }
 .agenda .card-body {
   background:#b9ffd7;
