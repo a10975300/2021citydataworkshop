@@ -586,7 +586,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+ max-width: 100%;
   height: auto;
 }
 
@@ -11282,7 +11282,9 @@ textarea.form-control-lg {
 }
 body {
  /* background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/bg.jpg");*/
-  background-image:url("../assets/img/bg.png");
+  
+
+  background-image: url("../assets/img/bg2.png");
 
   background-attachment:fixed;
   background-position: center;
@@ -11290,7 +11292,7 @@ body {
 }
 
 .bg_p{
-  /*background-image:url("../assets/img/bg2.png");
+  /* background-image:url("../assets/img/bg4.png");
  background-attachment: fixed;
   background-position: center;
   background-size: cover;*/
@@ -11445,15 +11447,21 @@ padding-top:4rem;
 .intro {
   position: relative;
 }
-@media (min-width: 992px) {
-  .intro .intro-img {
-   /* 
-   -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7));
- filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7))*/
- float: left;
- width: 90%;
+
+ .intro-img {
+
+object-fit:cover;
 
   }
+
+@media (min-width: 992px) {
+  .intro .intro-img {
+width:100%;
+height:100%;
+object-fit:cover;
+
+  }
+
   .intro .intro-text {
     left: 60%;
     width: 50%;
