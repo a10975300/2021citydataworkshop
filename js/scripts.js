@@ -11,6 +11,8 @@ function show22() {
        document.getElementById('hide22').style.display='';
         document.getElementById('hide33').style.display='none';
        document.getElementById('hide44').style.display='none';
+              document.getElementById('hide55').style.display='none';
+
        document.getElementById('show22').innerText = "活動目的";
    }
    else {
@@ -27,6 +29,8 @@ function show33() {
        document.getElementById('hide33').style.display='';
        document.getElementById('hide22').style.display='none';
        document.getElementById('hide44').style.display='none';
+              document.getElementById('hide55').style.display='none';
+
        document.getElementById('show33').innerText = "活動規劃";
    }
    else {
@@ -43,6 +47,7 @@ function show44() {
         isShow = true;
         document.getElementById('hide33').style.display='none';
        document.getElementById('hide22').style.display='none';
+       document.getElementById('hide55').style.display='none';
        document.getElementById('hide44').style.display='';
        document.getElementById('show44').innerText = "活動議程";
    }
@@ -50,5 +55,22 @@ function show44() {
        isShow = false;
        document.getElementById('hide44').style.display='none';
        document.getElementById('show44').innerText = "活動議程";
+   }
+}
+
+var isShow = false;
+function show55() {
+    if(!isShow) {
+        isShow = true;
+        document.getElementById('hide33').style.display='none';
+       document.getElementById('hide22').style.display='none';
+       document.getElementById('hide44').style.display='none';
+       document.getElementById('hide55').style.display='';
+       document.getElementById('show55').innerText = "活動議程(2)";
+   }
+   else {
+       isShow = false;
+       document.getElementById('hide55').style.display='none';
+       document.getElementById('show55').innerText = "活動議程(2)";
    }
 }
