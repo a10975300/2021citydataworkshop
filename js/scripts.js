@@ -49,12 +49,12 @@ function show44() {
        document.getElementById('hide22').style.display='none';
        document.getElementById('hide55').style.display='none';
        document.getElementById('hide44').style.display='';
-       document.getElementById('show44').innerText = "活動議程(1)";
+       document.getElementById('show44').innerText = "數據觀念建立";
    }
    else {
        isShow = false;
        document.getElementById('hide44').style.display='none';
-       document.getElementById('show44').innerText = "活動議程(1)";
+       document.getElementById('show44').innerText = "數據觀念建立";
    }
 }
 
@@ -66,11 +66,11 @@ function show55() {
        document.getElementById('hide22').style.display='none';
        document.getElementById('hide44').style.display='none';
        document.getElementById('hide55').style.display='';
-       document.getElementById('show55').innerText = "活動議程(2)";
+       document.getElementById('show55').innerText = "數據實戰演練";
    }
    else {
        isShow = false;
        document.getElementById('hide55').style.display='none';
-       document.getElementById('show55').innerText = "活動議程(2)";
+       document.getElementById('show55').innerText = "數據實戰演練";
    }
 }
