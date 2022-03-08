@@ -11447,7 +11447,7 @@ object-fit:cover;
 --------------------------------------------------------------*/
 .detail {
   font-weight:bold;
-  margin-bottom:8rem;
+  margin-bottom:15rem;
   position:center;
 }
 
@@ -11664,7 +11664,7 @@ nav-link
 }
 
 .sm_size{
-  font-size:20px;
+  font-size:30px;
 }
 
 .sm_size2{
@@ -11684,8 +11684,8 @@ font-size:25px;
 }
 
 .text_small{
-	padding-left:10%;
-	padding-right:10%;
+	padding-left:12%;
+	padding-right:12%;
 
 }
 
