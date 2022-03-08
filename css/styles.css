@@ -11202,6 +11202,19 @@ p {
   margin-bottom: 0rem;
 }
 
+.singup{
+margin-bottom: 9rem;
+}
+
+.video{
+margin-bottom: 9rem;
+}
+
+.classvideo{
+margin-bottom: 9rem;
+
+}
+
 .section-heading {
   text-transform: uppercase;
   margin-bottom:2rem;
@@ -11565,7 +11578,7 @@ nav-link
  
   /*background-color:#E0E0E0;*/
   padding-top: 0.1rem;
-    padding-bottom: 4rem;
+    padding-bottom: 9rem;
 
 }
 .agenda img {
@@ -11660,7 +11673,7 @@ nav-link
 .table_time{
   border-bottom:3px #cccccc solid;
   padding:0.2rem;
-  font-size:10px;
+  font-size:15px;
 }
 
 .sm_size{
