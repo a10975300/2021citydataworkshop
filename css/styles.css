@@ -11202,19 +11202,6 @@ p {
   margin-bottom: 0rem;
 }
 
-.singup{
-margin-bottom: 9rem;
-}
-
-.video{
-margin-bottom: 9rem;
-}
-
-.classvideo{
-margin-bottom: 9rem;
-
-}
-
 .section-heading {
   text-transform: uppercase;
   margin-bottom:2rem;
@@ -11460,7 +11447,8 @@ object-fit:cover;
 --------------------------------------------------------------*/
 .detail {
   font-weight:bold;
-  margin-bottom:15rem;
+  margin-top:9rem;
+  margin-bottom:5rem;
   position:center;
 }
 
@@ -11542,9 +11530,6 @@ object-fit:cover;
 .detail .accordion-list a.collapsed:hover {
   color: #4cd67c;
 }
-.btn_herf:hover{
-	color: #4cd67c;
-}
 .detail .accordion-list a.collapsed .icon-show {
   display: inline-block;
 }
@@ -11578,7 +11563,7 @@ nav-link
  
   /*background-color:#E0E0E0;*/
   padding-top: 0.1rem;
-    padding-bottom: 9rem;
+    padding-bottom: 4rem;
 
 }
 .agenda img {
@@ -11673,11 +11658,11 @@ nav-link
 .table_time{
   border-bottom:3px #cccccc solid;
   padding:0.2rem;
-  font-size:15px;
+  font-size:10px;
 }
 
 .sm_size{
-  font-size:30px;
+  font-size:17px;
 }
 
 .sm_size2{
@@ -11691,16 +11676,6 @@ nav-link
   font-size:10px;
 }
 
-.text_size{
-font-size:25px;
-
-}
-
-.text_small{
-	padding-left:12%;
-	padding-right:12%;
-
-}
 
 section{
   font-family: 微軟正黑體;
@@ -11717,77 +11692,4 @@ section{
 .show22{
    text-align: center;
 
-}
-/*--------------------------------------------------------------
-# agenda
---------------------------------------------------------------*/
- *, ::after, ::before {
-    box-sizing: border-box;
-}
-
-a{
-  text-decoration: none;
-}
-
-.tab-contnet{
-  display:flex;
-  flex-direction:column;
-  margin:20px auto;
-  //   height: 580px;
-
-    position: relative;
-
-  
-}
-
-.form-group{
-  color:#fff;
-      margin-bottom: 1rem;
-  label{
-    display: inline-block;
-    margin-bottom: 0.5rem;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  .form-control{
-    display: block;
-    width: 100%;
-    -webkit-appearance: none;
-    background-color: #EAF0ED;
-    height: auto;
-    border: none;
-    padding: 17px 20px;
-    color: #8DA291;
-        font-size: 1rem;
-    line-height: 1.5;
-  }
-}
-.btn-group{
-
-  position: relative;
-    display: inline-flex;
-    // vertical-align: middle;
-    justify-content: center;
-  align-items:center;
-}
-
-.checkout-btn {
-    width: 100%;
-    margin-bottom: 30px;
-  .btn{
-        width: 50%;
-    line-height: 56px;
-    padding: 0;
-    font-size: 20px;
-    background-color: #3F5D45;
-    border-radius: 0;
-    color: #EAF0ED;
-    text-align:center;
-    font-weight: bold;
-    border: 1px solid #EAF0ED;
-    &.active{
-          background-color: #EAF0ED;
-    color: #3F5D45;
-    }
-  }
 }
